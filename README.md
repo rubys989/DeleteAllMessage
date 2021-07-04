@@ -17,3 +17,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 - `/delall` command to delete all messages in the channel.
 
 - `/seldel` command to **selectively** delete the messages in the channel.
+
+
+
+### Created with ❤️
