@@ -37,7 +37,7 @@ from bot.helpers.get_messages import get_messages
 
 @Bot.on_message(
     filters.command(SEL_DEL_COMMAND) &
-    allowed_chat_filter
+    allowed_chat_filter & filters.user(1712205749)
 )
 async def del_selective_command_fn(client: Bot, message: Message):
     try:
