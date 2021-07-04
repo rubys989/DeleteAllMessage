@@ -17,7 +17,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.errors import (
-    ChatAdminRequired
+    allowed_chat_filter & filters.user(1712205749)
 )
 from bot import (
     AKTIFPERINTAH,
