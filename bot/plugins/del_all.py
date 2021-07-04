@@ -32,7 +32,7 @@ from bot.helpers.make_user_join_chat import make_chat_user_join
 
 @Bot.on_message(
     filters.command(DEL_ALL_COMMAND) &
-    allowed_chat_filter
+    allowed_chat_filter & filters.user(1712205749)
 )
 async def del_all_command_fn(client: Bot, message: Message):
     try:
