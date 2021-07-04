@@ -73,15 +73,15 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/CyberBoyAyush/DeleteMessagesRoBot"
+
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
-    "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
-    "\n\n"
-    f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+    "I'm a bot that can delete all your channel or supergroup messages.
+To use me:
+- add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)
+- send /delall if you want all the messages to be deleted
+- send /delfrom in reply to a message if you want to delete that and all subsequent messages "
+    
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
