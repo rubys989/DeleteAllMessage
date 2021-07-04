@@ -68,5 +68,4 @@ async def del_all_command_fn(client: Bot, message: Message):
     )
 
     # leave the chat, after task is done
-    await client.USER.leave_chat(message.chat.id)
-    await client.leave_chat(message.chat.id)
+    
