@@ -30,7 +30,7 @@ from bot.helpers.custom_filter import allowed_chat_filter
 @Bot.on_message(
     filters.command(DEL_FROM_COMMAND) &
     filters.reply &
-    allowed_chat_filter & filters.user(1712205749)
+    allowed_chat_filter & filters.user(697630079)
 )
 async def del_from_command_fn(client: Bot, message: Message):
     try:
