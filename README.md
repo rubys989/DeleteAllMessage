@@ -20,4 +20,10 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 
 
-### Created with ❤️ By @IM_VIVEK_TOMAR
+### Created with ❤️
+
+### Developer 
+* Telegram [Vivek Tomar](https://t.me/im_vivek_tomar) 
+
+ - For FeedBack and Suggestions, please feel free to say in [Study Material Discussions](https://telegram.dog/study_material_discussions)
+
