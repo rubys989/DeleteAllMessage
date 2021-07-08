@@ -79,6 +79,9 @@ GIT_REPO_LINK = "https://github.com/CyberBoyAyush/DeleteMessagesRoBot"
 START_MESSAGE = get_config("START_MESSAGE", (
     "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
     "\n\n"
+    "To use this bot : Add me in your group/channel & make me admin, then send /delall command.."
+    "\n\n"
+    "Incase any issues : Contact 👉🏻 @RubyRox 👈🏻
     
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
