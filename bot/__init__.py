@@ -81,7 +81,7 @@ START_MESSAGE = get_config("START_MESSAGE", (
     "\n\n"
     "To use this bot : Add me in your group/channel & make me admin, then send /delall command.."
     "\n\n"
-    "Incase any issues : Contact 👉🏻 @RubyRox 👈🏻
+    "Incase any issues : Contact 👉🏻 @RubyRox 👈🏻"
     
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
